@@ -74,7 +74,7 @@ public class HelloAppTest {
         // Passing no arguments should work.
         String[] args = {};
         HelloApp.main(args);
-        assertTrue(true);
+        assertThat(true, is(true));
     }
 
     @Test
